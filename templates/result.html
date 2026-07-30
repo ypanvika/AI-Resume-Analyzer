@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>AI Resume Analyzer</title>
+
+<link rel="stylesheet"
+href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>🤖 AI Resume Analyzer</h1>
+
+<div class="score-card">
+
+<h2>ATS Resume Score</h2>
+
+<div class="score">
+
+{{ score }}/100
+
+</div>
+
+</div>
+
+<h2>Detected Skills</h2>
+
+<div class="skills">
+
+{% for skill in skills %}
+
+<div class="skill">
+
+{{ skill }}
+
+</div>
+
+{% endfor %}
+
+</div>
+
+<div class="suggestions">
+
+<h2>Resume Suggestions</h2>
+
+<ul>
+
+{% for suggestion in suggestions %}
+
+<li>{{ suggestion }}</li>
+
+{% endfor %}
+
+</ul>
+
+</div>
+
+<h2>Extracted Resume Text</h2>
+
+<div class="resume-text">
+
+{{ resume_text }}
+
+</div>
+
+<a href="/" class="back-btn">
+
+Upload Another Resume
+
+</a>
+
+</div>
+
+</body>
+
+</html>
