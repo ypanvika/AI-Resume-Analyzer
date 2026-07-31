@@ -1,98 +1,110 @@
 # 🤖 AI Resume Analyzer
 
-An AI-powered Resume Analyzer built using **Python**, **Flask**, and **pdfplumber**. This application allows users to upload a PDF resume, extracts its text, identifies technical skills, calculates an ATS (Applicant Tracking System) score, and provides resume improvement suggestions.
+An AI-powered Resume Analyzer built using **Flask** and **Python** that analyzes PDF resumes, calculates an ATS (Applicant Tracking System) score, detects technical skills, and compares resumes with a Job Description.
 
-## ✨ Features
+---
 
-* 📄 Upload PDF resumes
-* 📝 Extract resume text
-* 💻 Detect technical skills automatically
-* 📊 Calculate ATS Resume Score
-* 💡 Generate resume improvement suggestions
-* 🎨 Simple and user-friendly interface
+## 🚀 Features
 
-## 🛠️ Technologies Used
+* 📄 Upload PDF Resume
+* ⭐ ATS Score Calculation
+* 💻 Technical Skills Detection
+* 👤 Candidate Information Extraction
+* 💡 Resume Improvement Suggestions
+* 🎯 Resume vs Job Description Matching
+* 📱 Responsive Bootstrap Interface
+
+---
+
+## 🛠️ Tech Stack
 
 * Python
 * Flask
-* HTML
-* CSS
+* HTML5
+* CSS3
+* Bootstrap 5
 * pdfplumber
+* Regular Expressions (Regex)
 
-## 📁 Project Structure
+---
+
+## 📂 Project Structure
 
 ```text
 AI-Resume-Analyzer/
 │
 ├── app.py
 ├── requirements.txt
-├── README.md
-├── .gitignore
+├── uploads/
 ├── static/
 │   └── style.css
-├── templates/
-│   ├── index.html
-│   └── result.html
-└── uploads/
+└── templates/
+    ├── index.html
+    └── result.html
 ```
 
-## 🚀 Installation
+---
 
-1. Clone the repository:
+## ⚙️ Installation
+
+Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/AI-Resume-Analyzer.git
+git clone https://github.com/ypanvika/AI-Resume-Analyzer.git
 ```
 
-2. Open the project folder:
+Go to the project folder:
 
 ```bash
 cd AI-Resume-Analyzer
 ```
 
-3. Create a virtual environment:
-
-```bash
-python -m venv venv
-```
-
-4. Activate the virtual environment:
-
-**Windows**
-
-```bash
-venv\Scripts\activate
-```
-
-5. Install dependencies:
+Install dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-6. Run the application:
+Run the application:
 
 ```bash
 python app.py
 ```
 
-7. Open your browser and visit:
+Open your browser and visit:
 
+```text
+http://127.0.0.1:5000
 ```
-http://127.0.0.1:5000/
-```
 
+---
 
-## 📌 Future Improvements
+## 📸 Screenshots
 
-* Job Description Matching
-* Missing Skills Detection
-* AI-powered Resume Feedback
-* Resume Ranking
-* Download Analysis Report (PDF)
-* User Authentication
+Add screenshots here after running the application.
+
+* Home Page
+* <img width="1099" height="778" alt="Screenshot 2026-07-31 145032" src="https://github.com/user-attachments/assets/e6e292b3-408b-4d3b-a88c-9f4784de8314" />
+
+* Resume Analysis Report , ats score dashboard.
+* <img width="1128" height="827" alt="Screenshot 2026-07-31 145109" src="https://github.com/user-attachments/assets/33d20f18-0f6b-4ed8-b48c-2ab000917d19" />
+
+* missing skills reportr
+<img width="910" height="445" alt="Screenshot 2026-07-31 145117" src="https://github.com/user-attachments/assets/ed8f1a6a-d2d8-4079-9065-83e427edcf04" />
+
+---
+
+## 🔮 Future Improvements
+
+* Interactive Charts
+* Download Report as PDF
+* Smarter ATS Scoring
+* Resume Section Analysis
+* Dark Mode
 * Cloud Deployment
+
+---
 
 ## 👩‍💻 Author
 
-Developed by **Panvika Yeneti**.
+**Panvika Yeneti**
