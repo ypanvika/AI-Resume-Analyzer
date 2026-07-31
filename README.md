@@ -82,9 +82,6 @@ python app.py
 http://127.0.0.1:5000/
 ```
 
-## 📷 Screenshots
-
-You can add screenshots of the application here after uploading them to a `screenshots` folder.
 
 ## 📌 Future Improvements
 
